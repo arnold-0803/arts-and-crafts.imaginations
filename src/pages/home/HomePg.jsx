@@ -5,7 +5,7 @@ import { bannerCarouselData } from '../../assets/data/heroBannerData';
 const HomePage = () => {
   return (
     <div className='home'>
-      <div className='pt-1'>
+      <div>
         <ScreenCarousel
           heroCarouselData={bannerCarouselData}
           customClass="hero-carousel"
