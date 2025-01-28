@@ -203,7 +203,8 @@ nav .multi-components .login-register{
 }
 
 .about-team .info-wrapper p i,
-.about-faq .about-banner p i{
+.about-faq .about-banner p i,
+.contacts .contacts-banner p i{
   @apply px-[5px];
 }
 
@@ -321,23 +322,28 @@ nav .multi-components .login-register{
 }
 /*  */
 
-.about-faq .about-banner{
+.about-faq .about-banner,
+.contacts .contacts-banner{
   @apply sm:flex max-[640px]:pb-[20px];
 }
 
-.about-banner .image{
+.about-banner .image,
+.contacts .image{
   @apply sm:w-[35%] relative;
 }
 
-.about-banner .image .bg-gradient{
+.about-banner .image .bg-gradient,
+.contacts .image .bg-gradient{
   @apply absolute left-0 top-0 w-full h-full sm:bg-gradient-to-l from-[#fff] max-[639px]:bg-gradient-to-t;
 }
 
-.about-banner .content{
+.about-banner .content,
+.contacts .content{
   @apply sm:w-[65%] sm:p-[0_30px_0_60px] max-[639px]:px-[15px] xl:pt-[80px] max-[1279px]:pt-[20px];
 }
 
 .about-banner .content h1,
+.contacts-banner .content h1,
 .about-faq .faq-wrapper h1,
 .about-team .info-wrapper h1{
   @apply lg:text-[4rem] text-[#068b50] max-[1023px]:text-[2.5rem] font-black max-[814px]:text-[2.2rem] 
@@ -345,12 +351,14 @@ nav .multi-components .login-register{
 }
 
 .about-banner .content h3,
+.contacts-banner .content h3,
 .about-faq .info-wrapper h3{
   @apply lg:text-[2rem] text-[#068b4fc2] max-[1023px]:text-[1.5rem] font-black max-[814px]:text-[1.6rem] 
   max-[727px]:text-[1.45rem] max-[326px]:text-[1.2rem] max-[639px]:text-center;
 }
 
-.about-banner .content p{
+.about-banner .content p,
+.contacts-banner .content p{
   @apply sm:text-[1.2rem] max-[639px]:text-[1.05rem] font-black max-[639px]:text-center pt-[10px];
 }
 
