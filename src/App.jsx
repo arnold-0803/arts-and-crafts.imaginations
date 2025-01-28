@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import TopBar from './components/TopBar';
+import HomePage from './pages/home/HomePg';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <TopBar/>
         <Navbar/>
         <Routes>
-         {/* route goes here */}
+          <Route path='/' element={<HomePage/>}/>
         </Routes>
       </Router>
     </div>

@@ -149,3 +149,73 @@ nav .multi-components .login-register{
 .social-media-wrapper ul li:nth-child(5) a i{
   @apply text-[#f5291a];
 }
+
+.home .hero-carousel{
+  @apply relative text-center h-[100vh] max-[550px]:h-[68vh] max-[365px]:h-[72vh];
+}
+
+.hero-carousel .swiper-slide img{
+  @apply h-[100%] w-full;
+}
+
+.hero-carousel .swiper-slide .content-wrapper{
+  @apply absolute top-0 left-0  h-[100vh];
+}
+
+.hero-carousel .swiper-slide .content-wrapper .content{
+  background: linear-gradient(to left, rgba(6,139,80,0.6),#068b50);
+  @apply xl:w-[50%] h-full px-[25px] max-[326px]:px-[10px] max-[1279px]:bg-gradient-to-r from-[#068b50] min-[600px]:pt-[100px];
+}
+
+.hero-carousel .swiper-slide .content h1{
+  @apply xl:text-[4rem] text-[#fff] max-[1279px]:text-[3.1rem] font-black max-[560px]:text-[2.5rem] max-[550px]:text-[2rem] 
+  max-[398px]:text-[1.5rem] max-[281px]:text-[1.2rem];
+}
+
+.hero-carousel .swiper-slide .content p{
+  @apply text-[#fff] xl:text-[1.3rem] max-[1279px]:text-[1.2rem] font-semibold max-[493px]:text-[1rem]
+   px-[15px] max-[512px]:pb-[15px] max-[294px]:pb-[0] max-[398px]:text-[0.98rem] max-[341px]:text-[0.93rem]
+   max-[281px]:px-[0];
+}
+
+.hero-carousel .swiper-slide .content .btn-container{
+  @apply block w-[100%] relative;
+}
+
+.hero-carousel .swiper-slide .content .btn-container a{
+  transition: 0.4s ease-in-out;
+  background: var(--orange-color);
+  @apply min-[560px]:text-[1.4rem] text-[#fff] p-[6px_20px] rounded-[10px]
+  border-[2px] border-[#ff811c] absolute left-0 min-[540px]:left-[70px];
+}
+
+.hero-carousel .swiper-slide .content .btn-container a:hover{
+  @apply bg-transparent font-bold;
+}
+
+.hero-carousel .swiper-slide .blank{
+  background: linear-gradient(to left, rgb(6,139,80,0.0),#068b4f94);
+  @apply xl:w-[50%];
+}
+
+
+
+
+/* SWIPER STYLES */
+.hero-carousel .swiper-button-prev,
+.hero-carousel .swiper-button-next{
+  @apply bg-[#ff821c9c] text-[#fff] w-[40px] h-[40px] rounded-[10px];
+}
+
+.hero-carousel .swiper-button-prev::after,
+.hero-carousel .swiper-button-next::after{
+  @apply text-[1.45rem];
+}
+
+.hero-carousel .swiper-pagination-bullet{
+  @apply bg-[#fff] rounded-[20px] w-[50px] h-[5px] opacity-[1];
+}
+
+.hero-carousel .swiper-pagination-bullet-active{
+  @apply bg-[#ff811c];
+}
