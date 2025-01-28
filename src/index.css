@@ -198,6 +198,220 @@ nav .multi-components .login-register{
   @apply xl:w-[50%];
 }
 
+.about-team .info-wrapper p{
+  @apply pb-[20px];
+}
+
+.about-team .info-wrapper p i,
+.about-faq .about-banner p i{
+  @apply px-[5px];
+}
+
+.about-team .info-wrapper .info-content-module .module-wrapper{
+  @apply pb-[40px];
+}
+
+.module-wrapper .module-content{
+  @apply xl:mt-[220px] max-[1279px]:mt-[290px];
+}
+
+.module-wrapper .module-content p{
+  @apply p-[0_15px_15px];
+}
+
+.about-team .info-content li{
+  @apply p-[15px] border-[1px] border-[#3333331f] shadow-lg;
+}
+
+.about-team .info-content,
+.about-faq .info-content{
+  @apply grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] xl:gap-x-[20px] gap-y-[20px] lg:px-[90px]
+  max-[1023px]:px-[30px] max-[1279px]:gap-x-[20px] pb-[40px];
+}
+
+.about-team .info-content li:nth-child(1) h4{
+  @apply text-[#f5291a];
+}
+
+.about-team .info-content li:nth-child(2) h4{
+  @apply text-[#068b50];
+}
+
+.about-team .info-content li:nth-child(3) h4{
+  @apply text-[#ff811c];
+}
+
+.about-team .info-content li h5{
+  @apply text-[1.3rem] font-bold text-[#068b4faf];
+}
+
+.about-team .info-content li p,
+.about-team .info-content-module p{
+  @apply text-[1.1rem];
+}
+
+.info-content-module .social-media-wrapper li{
+  @apply px-[5px];
+}
+
+.about-team .info-content li span,
+.about-team .info-content-module span{
+  @apply text-[1.1rem] font-bold cursor-pointer;
+}
+
+.about-team .info-content li:hover h4,
+.about-team .info-content li:hover h5,
+.about-team .info-content li:hover p{
+  @apply text-[#fff];
+}
+
+.gallery-wrapper{
+  @apply p-[40px_0_20px];
+}
+
+.gallery-wrapper h3{
+  @apply pb-[10px];
+}
+
+.gallery-wrapper .gallery-content{
+  @apply xl:px-[80px] max-[1279px]:px-[10px];
+}
+
+.gallery-wrapper .gallery-content .content-card{
+  @apply relative;
+}
+
+.gallery-wrapper .gallery-content .content-card img{
+  transition: 0.3s ease-in-out;
+}
+
+.gallery-wrapper .gallery-content .content-card:hover img{
+  @apply scale-[1.1]
+}
+
+.gallery-wrapper .gallery-content .content-card .layer{
+  @apply invisible absolute top-0 left-0 w-full h-full text-[#fff] font-black text-[1.2rem] 
+  bg-[#068b4f5e] p-[10px];
+}
+
+.gallery-wrapper .gallery-content .content-card:hover .layer{
+  @apply visible text-[#fff] font-black text-[1.2rem] bg-[#068b4f5e] p-[10px];
+}
+
+.gallery-wrapper .gallery-content .content-card .layer i{
+  @apply absolute bottom-[5px] right-[5px] cursor-pointer rotate-[90deg] p-[8px] bg-[#fff] rounded-[50px]
+  text-[#068b50] text-[0.95rem];
+}
+
+.gallery-content-module .module-wrapper{
+  @apply pb-[40px];
+}
+
+.gallery-content-module .module-wrapper .module-content{
+  @apply xl:mt-[120px] max-[1279px]:mt-[80px];
+}
+
+/*  */
+.fun-fact-wrapper{
+  @apply py-[40px];
+}
+
+.fun-fact-wrapper .fun-fact{
+  @apply min-[1011px]:p-[30px_40px] max-[1010px]:p-[30px_10px];
+}
+/*  */
+
+.about-faq .about-banner{
+  @apply sm:flex max-[640px]:pb-[20px];
+}
+
+.about-banner .image{
+  @apply sm:w-[35%] relative;
+}
+
+.about-banner .image .bg-gradient{
+  @apply absolute left-0 top-0 w-full h-full sm:bg-gradient-to-l from-[#fff] max-[639px]:bg-gradient-to-t;
+}
+
+.about-banner .content{
+  @apply sm:w-[65%] sm:p-[0_30px_0_60px] max-[639px]:px-[15px] xl:pt-[80px] max-[1279px]:pt-[20px];
+}
+
+.about-banner .content h1,
+.about-faq .faq-wrapper h1,
+.about-team .info-wrapper h1{
+  @apply lg:text-[4rem] text-[#068b50] max-[1023px]:text-[2.5rem] font-black max-[814px]:text-[2.2rem] 
+  max-[727px]:text-[1.58rem] max-[326px]:text-[1.35rem] max-[639px]:text-center;
+}
+
+.about-banner .content h3,
+.about-faq .info-wrapper h3{
+  @apply lg:text-[2rem] text-[#068b4fc2] max-[1023px]:text-[1.5rem] font-black max-[814px]:text-[1.6rem] 
+  max-[727px]:text-[1.45rem] max-[326px]:text-[1.2rem] max-[639px]:text-center;
+}
+
+.about-banner .content p{
+  @apply sm:text-[1.2rem] max-[639px]:text-[1.05rem] font-black max-[639px]:text-center pt-[10px];
+}
+
+.about-faq .info-content li{
+  @apply p-[20px] rounded-[10px] text-[#fff] shadow-lg;
+}
+
+.about-faq .info-wrapper .info-content h4{
+  @apply text-[1.4rem] font-extrabold text-center;
+}
+
+.about-faq .info-wrapper .info-content p{
+  @apply text-[1.12rem] text-center;
+}
+
+.about-faq .info-content li:nth-child(1){
+  transition: 0.3s ease-in-out;
+  @apply bg-[#f5291a];
+}
+
+.about-faq .info-content li:hover:nth-child(1),
+.about-team .info-content li:hover:nth-child(1){
+  @apply bg-[#f5291ac9];
+}
+
+.about-faq .info-content li:nth-child(2){
+  transition: 0.3s ease-in-out;
+  @apply bg-[#068b50];
+}
+
+.about-faq .info-content li:hover:nth-child(2),
+.about-team .info-content li:hover:nth-child(2){
+  @apply bg-[#068b4fc9];
+}
+
+.about-faq .info-content li:nth-child(3){
+  transition: 0.3s ease-in-out;
+  @apply bg-[#ff811c];
+}
+
+.about-faq .info-content li:hover:nth-child(3),
+.about-team .info-content li:hover:nth-child(3){
+  @apply bg-[#ff821cc9];
+}
+
+.faq-wrapper{
+  @apply pb-[20px];
+}
+
+.faq-wrapper ul{
+  @apply pt-[20px];
+}
+
+.faq-wrapper ul li{
+  @apply px-[20px] pb-[15px];
+}
+
+.faq-wrapper ul li span i{
+  @apply p-[6px_8px];
+}
+
 
 
 

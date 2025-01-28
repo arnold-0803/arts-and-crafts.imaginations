@@ -25,3 +25,13 @@ export const bannerCarouselData = [
     url: "/https://www.3.com"
   }
 ];
+
+
+
+export const aboutBannerData = {
+  image: "/images/banner4.webp",
+  heading: "Who We Are and What We Do",
+  subHeading: "Welcome to Imaginations",
+  body: "We are a passionate startup connecting artists and crafters with buyers worldwide, celebrating creativity, empowering talent, and fostering a marketplace where handmade artistry meets opportunity and stories come to life.",
+  customClass: "about-banner"
+}
