@@ -35,3 +35,14 @@ export const aboutBannerData = {
   body: "We are a passionate startup connecting artists and crafters with buyers worldwide, celebrating creativity, empowering talent, and fostering a marketplace where handmade artistry meets opportunity and stories come to life.",
   customClass: "about-banner"
 }
+
+
+
+export const contacsBannerData = {
+  image: "/images/banner5.webp",
+  heading: "Get in Touch with Us. We’re Here to Help",
+  icon: "fa-solid fa-headset",
+  body: "Our customer care team ensures you're welcomed warmly, assisted seamlessly, and your inquiries are resolved quickly with utmost professionalism and care.",
+  subHeading: "Reach Out Anytime",
+  customClass: "contacts-banner"
+};

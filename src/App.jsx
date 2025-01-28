@@ -5,6 +5,7 @@ import TopBar from './components/TopBar';
 import HomePage from './pages/home/HomePg';
 import AboutTeamPg from './pages/about/AboutTeamPg';
 import AboutFaqPg from './pages/about/AboutFaqPg';
+import ContactsPg from './pages/contacts/ContactsPg';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<HomePage/>}/>
           <Route path='/about/our-team' element={<AboutTeamPg/>}/>
           <Route path='/about/faq' element={<AboutFaqPg/>}/>
+          <Route path='/contact' element={<ContactsPg/>}/>
         </Routes>
       </Router>
     </div>
