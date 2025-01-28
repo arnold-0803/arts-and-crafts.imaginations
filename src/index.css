@@ -29,7 +29,7 @@
 
 nav{
   transition: top 0.3s ease-in-out;
-  @apply sticky top-0 lg:p-[8px_25px] max-[1024px]:p-[5px_10px] shadow-lg bg-[#fff];
+  @apply sticky top-0 lg:p-[8px_25px] max-[1024px]:p-[8px_15px] max-[1011px]:p-[5px_0] shadow-lg bg-[#fff];
 }
 
 nav ul .submenu,
@@ -39,19 +39,19 @@ nav ul .sub-sub-menu{
 
 nav .menu{
   @apply max-[1011px]:flex max-[1011px]:flex-col min-[1010px]:flex min-[1010px]:gap-x-[5px] bg-[#fff] max-[1011px]:absolute
-  top-0 max-[1010px]:left-[0] max-[1011px]:invisible max-[1010px]:opacity-0 max-[1010px]:p-[50px_0_30px_0] max-[1010px]:w-full 
-  max-[1011px]:-z-50;
+  top-0 max-[1010px]:left-[0] max-[1011px]:invisible max-[1010px]:opacity-0 max-[1010px]:p-[50px_0_30px_0] max-[1011px]:-z-50;
 }
 
 nav .menu.active{
   overflow-y: scroll;
+  scrollbar-color: none;
   transition: 0.3s ease-in-out;
   @apply bg-[#fff] left-0 visible opacity-[1] px-[5px] max-[1011px]:h-[100vh] pt-[100px] max-[1011px]:w-[60%] max-[534px]:w-full;
 }
 
 nav .menu li a{
   color: var(--brown-color);
-  @apply block w-full text-[1.1rem] p-[5px_10px];
+  @apply block w-full xl:text-[1.1rem] max-[1280px]:text-[0.9rem] p-[5px_10px] max-[1011px]:text-[1.1rem];
 }
 
 nav .submenu{
