@@ -420,6 +420,40 @@ nav .multi-components .login-register{
   @apply p-[6px_8px];
 }
 
+.contacts .contact-content{
+  @apply min-[1011px]:px-[50px] max-[1011px]:px-[15px] py-[15px];
+}
+
+.contacts .contact-content .location-map h4{
+  @apply pb-[10px];
+}
+
+.contacts .contact-content .location-map iframe{
+  @apply w-full h-[250px];
+}
+
+.contacts .contact-content form,
+.contacts .contact-content ul{
+  @apply p-[30px] gap-[8px];
+}
+.contacts .contact-content .social-media-wrapper ul{
+  @apply pt-[10px];
+}
+
+.contacts .contact-content .social-media-wrapper div{
+  @apply hidden;
+}
+
+.contacts .contact-content form input,
+.contacts .contact-content form textarea{
+  @apply p-[10px_8px] bg-[#2c020210] outline-none text-[1.1rem];
+}
+
+.contacts .contact-content form button{
+@apply bg-[#ff821ce3] py-[10px] text-[#fff] font-semibold text-[1.1rem] hover:bg-[#ff811c]
+mt-[10px];
+}
+
 
 
 
