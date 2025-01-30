@@ -18,10 +18,10 @@ const HeroBanner = ({bannerData, navigate}) => {
           items-center'>
           <Link className='mr-[5px] text-[1.05rem] hover:underline'
             to={"/"}>
-            {navigate}
+            Home
           </Link>
           <i className='fa-solid fa-chevron-right text-[1rem]'></i>
-          <span className='ml-[5px] text-[1.05rem]'>About</span>
+          <span className='ml-[5px] text-[1.05rem]'>{navigate}</span>
         </p>
       </div>
     </div>
