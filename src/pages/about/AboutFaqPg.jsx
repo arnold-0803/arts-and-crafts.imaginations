@@ -11,7 +11,7 @@ const AboutFaqPg = () => {
       <div>
         <HeroBanner 
           bannerData={aboutBannerData}
-          navigate="Home"
+          navigate="About"
         />
       </div>
       <div className='info-wrapper'>
