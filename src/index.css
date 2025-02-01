@@ -151,7 +151,7 @@ nav .multi-components .login-register{
 }
 
 .home .hero-carousel{
-  @apply relative text-center h-[100vh] max-[550px]:h-[68vh] max-[365px]:h-[72vh];
+  @apply relative text-center h-[100vh] max-[640px]:h-[68vh] max-[358px]:h-[70vh];
 }
 
 .hero-carousel .swiper-slide img{
@@ -163,19 +163,19 @@ nav .multi-components .login-register{
 }
 
 .hero-carousel .swiper-slide .content-wrapper .content{
-  background: linear-gradient(to left, rgba(6,139,80,0.6),#068b50);
-  @apply xl:w-[50%] h-full px-[25px] max-[326px]:px-[10px] max-[1279px]:bg-gradient-to-r from-[#068b50] min-[600px]:pt-[100px];
+  background: linear-gradient(to left, rgba(6,139,80,0.8),#068b50);
+  @apply lg:w-[50%] h-full px-[25px] max-[326px]:px-[5px] max-[1024px]:bg-gradient-to-r from-[#068b50] sm:pt-[100px];
 }
 
 .hero-carousel .swiper-slide .content h1{
-  @apply xl:text-[4rem] text-[#fff] max-[1279px]:text-[3.1rem] font-black max-[560px]:text-[2.5rem] max-[550px]:text-[2rem] 
-  max-[398px]:text-[1.5rem] max-[281px]:text-[1.2rem];
+  @apply xl:text-[4rem] text-[#fff] max-[1279px]:text-[2.5rem] font-black max-[590px]:text-[2.1rem] max-[433px]:text-[1.5rem] max-[366px]:text-[1.3rem] 
+  max-[233px]:text-[1rem];
 }
 
 .hero-carousel .swiper-slide .content p{
   @apply text-[#fff] xl:text-[1.3rem] max-[1279px]:text-[1.2rem] font-semibold max-[493px]:text-[1rem]
    px-[15px] max-[512px]:pb-[15px] max-[294px]:pb-[0] max-[398px]:text-[0.98rem] max-[341px]:text-[0.93rem]
-   max-[281px]:px-[0];
+   max-[281px]:px-[0] text-justify;
 }
 
 .hero-carousel .swiper-slide .content .btn-container{
@@ -185,7 +185,7 @@ nav .multi-components .login-register{
 .hero-carousel .swiper-slide .content .btn-container a{
   transition: 0.4s ease-in-out;
   background: var(--orange-color);
-  @apply min-[560px]:text-[1.4rem] text-[#fff] p-[6px_20px] rounded-[10px]
+  @apply min-[640px]:text-[1.4rem] text-[#fff] p-[6px_20px] rounded-[10px]
   border-[2px] border-[#ff811c] absolute left-0 min-[540px]:left-[70px];
 }
 
@@ -194,8 +194,8 @@ nav .multi-components .login-register{
 }
 
 .hero-carousel .swiper-slide .blank{
-  background: linear-gradient(to left, rgb(6,139,80,0.0),#068b4f94);
-  @apply xl:w-[50%];
+  background: linear-gradient(to left, rgb(6,139,80,0.0),rgba(6, 139, 79, 0.801));
+  @apply lg:w-[50%];
 }
 
 
