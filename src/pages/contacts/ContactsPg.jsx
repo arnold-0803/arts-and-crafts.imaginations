@@ -28,7 +28,7 @@ const ContactsPg = () => {
       <div>
         <HeroBanner 
           bannerData={contacsBannerData}
-          navigate="Contact"
+          navigate="Contacts"
         />
       </div>
       <div className="contact-content min-[628px]:flex justify-center items-start min-[1011px]:gap-[30px]
