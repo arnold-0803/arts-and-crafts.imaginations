@@ -151,7 +151,7 @@ nav .multi-components .login-register{
 }
 
 .home .hero-carousel{
-  @apply relative text-center h-[100vh] max-[640px]:h-[68vh] max-[358px]:h-[70vh];
+  @apply relative text-center h-[100vh] max-[640px]:h-[64vh] max-[358px]:h-[68vh];
 }
 
 .hero-carousel .swiper-slide img{
@@ -174,7 +174,7 @@ nav .multi-components .login-register{
 
 .hero-carousel .swiper-slide .content p{
   @apply text-[#fff] xl:text-[1.3rem] max-[1279px]:text-[1.2rem] font-semibold max-[493px]:text-[1rem]
-   px-[15px] max-[512px]:pb-[15px] max-[294px]:pb-[0] max-[398px]:text-[0.98rem] max-[341px]:text-[0.93rem]
+   sm:px-[25px] max-[512px]:pb-[15px] max-[294px]:pb-[0] max-[398px]:text-[0.98rem] max-[341px]:text-[0.93rem]
    max-[281px]:px-[0] text-justify;
 }
 
@@ -460,7 +460,7 @@ mt-[10px];
 /* SWIPER STYLES */
 .hero-carousel .swiper-button-prev,
 .hero-carousel .swiper-button-next{
-  @apply bg-[#ff821c9c] text-[#fff] w-[40px] h-[40px] rounded-[10px];
+  @apply bg-[#ff821c9c] text-[#fff] w-[35px] h-[35px] rounded-[10px];
 }
 
 .hero-carousel .swiper-button-prev::after,
