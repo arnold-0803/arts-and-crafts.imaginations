@@ -49,19 +49,19 @@ Built on the ****MERN stack**** (MongoDB, Express.js, React, and Node.js), our p
 
 **Backend Setup**
 
-.cd backend
+.cd arts-and-crafts.imaginations/arts-and-crafts-backend
 
 .npm install
 
-.npm start
+.nodemon server
 
 **Frontend Setup**
 
-.cd frontend
+.cd arts-and-crafts.imaginations
 
 .npm install
 
-.npm start
+.npm run dev
 ## Contributing
 We welcome contributions! Feel free to submit issues, fork the repo, and create pull requests.
 
