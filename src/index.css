@@ -454,6 +454,42 @@ nav .multi-components .login-register{
 mt-[10px];
 }
 
+.auth-wrapper{
+  @apply pt-[50px] max-[741px]:px-[30px];
+}
+
+.auth-wrapper form input{
+  @apply border-[1px] outline-none focus-within:ring-[1px] focus-within:ring-[#2c0202] text-[1.1rem] p-[10px_5px_10px_13px];
+}
+
+.auth-wrapper form button{
+  @apply py-[10px] bg-[#f5291a] text-[#fff] text-[1.1rem] font-semibold cursor-pointer;
+}
+
+.auth-wrapper form button.cancel-btn{
+  @apply py-[10px] bg-transparent text-[#2c0202] text-[1.1rem] font-semibold cursor-pointer;
+}
+
+.auth-wrapper .password-recovery div{
+  @apply py-[10px];
+}
+
+.auth-wrapper .password-recovery div button{
+  @apply px-[15px];
+}
+
+.auth-wrapper form span.register{
+  @apply max-[1011px]:hidden;
+}
+
+
+.auth-wrapper form a{
+  @apply min-[1011px]:hidden text-[#2c0202] cursor-pointer font-bold;
+}
+
+.auth-wrapper form p input[type="checkbox"]{
+  @apply accent-[#ff5757] w-[16px] h-[16px] outline-none;
+}
 
 
 
