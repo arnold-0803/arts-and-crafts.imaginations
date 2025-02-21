@@ -58,9 +58,9 @@ const ContactsPg = () => {
               Location Map
             </h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1994.4054317962043!2d36.82101311597749!3d-1.2876072541695869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaasai%20market%2C%20nairobi%2C%20kenya!5e0!3m2!1sen!2ske!4v1738179761237!5m2!1sen!2ske" 
-              allowfullscreen="" 
+              allowFullScreen="" 
               loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <div className='min-[628px]:flex-1 max-[628px]:w-full border border-[#3333332f] shadow-xl'>
