@@ -16,7 +16,7 @@ const AuthButtons = () =>{
           Login
         </Link>
         <Link className='signup-link bg-[#ff811c]'
-          to={"/signup"}
+          to={"/register"}
         >
           Sign up
         </Link>
