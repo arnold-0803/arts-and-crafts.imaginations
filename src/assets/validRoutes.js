@@ -11,5 +11,7 @@ export const validRoutes = [
   "/about/our-team",
   "/about/faq",
   "/contact",
-  "/news"
+  "/news",
+  "/login",
+  "/register"
 ];
