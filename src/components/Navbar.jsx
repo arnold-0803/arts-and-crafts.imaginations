@@ -140,6 +140,9 @@ const Navbar = () => {
               <AuthButtons/>
             </li>
             <li className="min-[1011px]:hidden">
+              <h4 className="text-center font-bold text-[#068b4fc2]">
+                Follow Us
+              </h4>
               <SocialMediaIcons socialMediaIcons={socialMedia}/>
             </li>
           </ul>
