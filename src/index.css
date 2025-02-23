@@ -109,6 +109,14 @@ nav .multi-components .login-register{
   @apply max-[1011px]:hidden;
 }
 
+nav .menu.active h4{
+  @apply mt-[15px];
+}
+
+nav .social-media-wrapper{
+  @apply mt-[-20px];
+}
+
 .auth-btn-wrapper{
   @apply px-[10px] pt-[20px];
 }
