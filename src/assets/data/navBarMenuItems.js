@@ -67,7 +67,7 @@ export const menuItems = [
   },
   {
     id: 2,
-    title:"About",
+    title:"About Us",
     // url: "/about",
     subMenuItems:[
       {
