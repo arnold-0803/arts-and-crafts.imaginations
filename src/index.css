@@ -466,6 +466,10 @@ mt-[10px];
   @apply pt-[50px] max-[741px]:px-[30px];
 }
 
+.auth-wrapper h4{
+  @apply pb-[10px];
+}
+
 .auth-wrapper form input{
   @apply border-[1px] outline-none focus-within:ring-[1px] focus-within:ring-[#2c0202] text-[1.1rem] p-[10px_5px_10px_13px];
 }
@@ -490,9 +494,12 @@ mt-[10px];
   @apply max-[1011px]:hidden;
 }
 
-
 .auth-wrapper form a{
   @apply min-[1011px]:hidden text-[#2c0202] cursor-pointer font-bold;
+}
+
+.auth-wrapper form a.policy-btn{
+  @apply block text-[#2c0202] cursor-pointer font-normal ml-[5px] hover:underline;
 }
 
 .auth-wrapper form p input[type="checkbox"]{
