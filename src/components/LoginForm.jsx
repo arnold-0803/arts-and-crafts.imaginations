@@ -6,9 +6,9 @@ const LoginForm = ({setShowLogin, setShowRecovery}) => {
     <div className='login-wrapper'>
       <div className="flex justify-center items-center h-full">
         {<form className='min-[760px]:w-1/3 max-[761px]:w-full'>
-          <h1 className='text-center text-[#068b4fc2] text-[1.5rem] font-bold'>
+          <h4 className='text-center text-[#068b4fc2] text-[1.5rem] font-bold'>
             Login
-          </h1>
+          </h4>
           <div className='flex flex-col gap-[15px]'>
             <input type="email" placeholder='Email' required/>
             <input type="password" placeholder='Password' required/>

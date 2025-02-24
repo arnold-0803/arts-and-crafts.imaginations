@@ -5,16 +5,20 @@ const RegisterForm = ({setShowLogin}) => {
   return (
     <div className="flex justify-center items-center h-full">
       <form className='min-[760px]:w-1/3 max-[761px]:w-full'>
-        <h1 className='text-center text-[#068b4fc2] text-[1.5rem] font-bold'>
+        <h4 className='text-center text-[#068b4fc2] text-[1.5rem] font-bold'>
           Register
-        </h1>
+        </h4>
         <div className='flex flex-col gap-[15px]'>
           <input type="text" placeholder='First name' required/>
           <input type="text" placeholder='Last name' required/>
           <input type="email" placeholder='Email' required/>
           <input type="password" placeholder='Password' required/>
-          <p>
-            <input type="checkbox" required/> I Agree to terms and condition
+          <p className='flex items-center'>
+            <input type="checkbox" required/>
+            <Link className="policy-btn"
+              to={"/policy"}>
+              I Agree to terms and conditions
+            </Link>
           </p>
           <button>
             Sign up

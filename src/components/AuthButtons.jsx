@@ -6,7 +6,7 @@ const AuthButtons = () =>{
     <div className='auth-btn-wrapper'>
       <div>
         <h3 className='text-[1.3rem] font-bold text-[#068b4fbb]'>
-          My Acount
+          My Account
         </h3>
       </div>
       <div className='flex flex-col gap-[10px]'>
