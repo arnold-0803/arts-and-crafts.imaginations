@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RegisterForm = ({
-  setShowLogin,
   email, password,
   handleSignupSubmit,
   setEmail, setPassword
@@ -30,11 +29,7 @@ const RegisterForm = ({
           <button type='submit'>
             Sign up
           </button>
-          <span className='register hover:underline text-[#2c0202] cursor-pointer font-bold'
-            onClick={() => setShowLogin(true)}>
-            Alredy have account? Login
-          </span>
-          <Link to={"/login"}>
+          <Link className='register hover:underline text-[#2c0202] cursor-pointer font-bold' to={"/login"}>
             Alredy have account? Login
           </Link>
         </div>

@@ -18,8 +18,7 @@ const RegisterPage = () => {
     <div>
       <div className='auth-wrapper'>
         {showLogin && (
-          <RegisterForm 
-            setShowLogin={setShowLogin}
+          <RegisterForm
             email={email}
             password={password}
             handleSignupSubmit={handleSignupSubmit}

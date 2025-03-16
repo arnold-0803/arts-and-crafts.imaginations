@@ -120,7 +120,7 @@ export const navIcons = [
   {
     id: 0,
     icon: "fa-solid fa-user",
-    url: "/login/register",
+    url: "/login",
     customClass: "login-register"
   },
   {
