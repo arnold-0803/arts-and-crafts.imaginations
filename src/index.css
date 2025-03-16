@@ -490,13 +490,13 @@ mt-[10px];
   @apply px-[15px];
 }
 
-.auth-wrapper form span.register{
+/* .auth-wrapper form span.register{
   @apply max-[1011px]:hidden;
-}
+} */
 
-.auth-wrapper form a{
+/* .auth-wrapper form a{
   @apply min-[1011px]:hidden text-[#2c0202] cursor-pointer font-bold;
-}
+} */
 
 .auth-wrapper form a.policy-btn{
   @apply block text-[#2c0202] cursor-pointer font-normal ml-[5px] hover:underline;

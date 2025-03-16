@@ -6,7 +6,7 @@ import HomePage from './pages/home/HomePg';
 import AboutTeamPg from './pages/about/AboutTeamPg';
 import AboutFaqPg from './pages/about/AboutFaqPg';
 import ContactsPg from './pages/contacts/ContactsPg';
-import AuthPage from './pages/Auth/AuthPage';
+// import AuthPage from './pages/Auth/AuthPage';
 import LoginPage from './pages/Auth/LoginPage';
 import RegisterPage from './pages/Auth/RegisterPage';
 import AuthProvider from './context/AuthContext';
@@ -23,7 +23,7 @@ function App() {
             <Route path='/about/our-team' element={<AboutTeamPg/>}/>
             <Route path='/about/faq' element={<AboutFaqPg/>}/>
             <Route path='/contact' element={<ContactsPg/>}/>
-            <Route path='/login/register' element={<AuthPage/>}/>
+            {/* <Route path='/login/register' element={<AuthPage/>}/> */}
             <Route path='/login' element={<LoginPage/>}/>
             <Route path='/register' element={<RegisterPage/>}/>
           </Routes>

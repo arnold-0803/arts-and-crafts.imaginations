@@ -15,7 +15,6 @@ const LoginPage = () => {
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
     await login(email, password);
-    
   };
 
   return (
@@ -23,7 +22,6 @@ const LoginPage = () => {
       <div className='auth-wrapper'>
         {showLogin && !showRecovery && (
           <LoginForm 
-            setShowLonin={setShowLogin}
             setShowRecovery={setShowRecovery}
             email={email}
             password={password}
