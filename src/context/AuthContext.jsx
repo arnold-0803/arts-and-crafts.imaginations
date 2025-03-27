@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 const AuthContext = createContext();
 export const useAuth = () => useContext(AuthContext);
 
-const API_URL = "Pass the api url here";
+const API_URL = "http://localhost:5000/api/auth";
 
 const AuthProvider = ({children}) => {
 
@@ -49,7 +49,7 @@ const AuthProvider = ({children}) => {
   };
 
   // Signup Function
-  const register = async (email, password) => {
+  const register = async (name, email, password) => {
     setError(null);
 
     try{
@@ -57,7 +57,7 @@ const AuthProvider = ({children}) => {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ name, email, password }),
       });
       if(!response.ok) throw new Error("User already exists");
       const data = await response.json();

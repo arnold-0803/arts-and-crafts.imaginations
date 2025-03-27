@@ -15,9 +15,9 @@ const LoginForm = ({
             Login
           </h4>
           <div className='flex flex-col gap-[15px]'>
-            <input type="email" value={email} placeholder='Email' required
+            <input type="email" value={email} placeholder='Email' required autoComplete='username'
               onChange={(e) => setEmail(e.target.value)}/>
-            <input type="password" value={password} placeholder='Password' required
+            <input type="password" value={password} placeholder='Password' required autoComplete='current-password'
               onChange={(e) => setPassword(e.target.value)}/>
             <span className='hover:underline text-[#2c0202] cursor-pointer font-medium'
               onClick={() => setShowRecovery(true)}>

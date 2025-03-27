@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RegisterForm = ({
-  email, password,
+  name, email, password,
   handleSignupSubmit,
-  setEmail, setPassword
+  setName, setEmail, setPassword
 }) => {
   return (
     <div className="flex justify-center items-center h-full">
@@ -13,11 +13,12 @@ const RegisterForm = ({
           Register
         </h4>
         <div className='flex flex-col gap-[15px]'>
-          <input type="text" placeholder='First name' required/>
-          <input type="text" placeholder='Last name' required/>
-          <input type="email" value={email} placeholder='Email' required
+          <input type="text" value={name} placeholder='Full name' required
+            onChange={(e) => setName(e.target.value)}/>
+          {/* <input type="text" placeholder='Last name' required/> */}
+          <input type="email" value={email} placeholder='Email' required autoComplete='username'
             onChange={(e) => setEmail(e.target.value)}/>
-          <input type="password" value={password} placeholder='Password' required
+          <input type="password" value={password} placeholder='Password' required autoComplete='current-password'
             onChange={(e) => setPassword(e.target.value)}/>
           <p className='flex items-center'>
             <input type="checkbox" required/>

@@ -10,7 +10,10 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173", // Replace with your frontend URL
+  credentials: true
+}));
 app.use(morgan("dev"));
 
 // Database Connection
